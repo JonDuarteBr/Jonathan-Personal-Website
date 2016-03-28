@@ -1,0 +1,190 @@
+/* 
+    Created on : 03/03/2016
+    Author     : Jonathan Duarte
+*/
+
+body {
+	background-color: rgb(150, 150, 150);
+	font-family: Courier, monospace;
+}
+
+#inner {
+	background-color: #463E3F;
+	background-image: linear-gradient(to bottom left, rgb(166, 166, 166), rgb(0,40,0));
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	border: 2px solid #34282C;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	box-shadow: 0px 0px 50px black;
+
+}
+
+#quote {
+	margin-top:50px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	width: 300px;   
+	padding: 4px; 
+	color: rgb(242, 242, 242); 
+	font-size: 16pt; 
+	display: inline-block;
+	font-style: italic;
+}
+
+#quoteName {
+	text-align: center;
+	color: black;
+}
+
+#middle {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#skills {
+	width: 240px; 
+	color: rgb(242, 242, 242); 
+	font-size: 14pt; 
+	display: inline-block;
+}
+
+footer {
+	text-align: right;
+	margin-right: 40px;
+}
+
+.iconlink {
+	text-decoration: none;
+}
+
+.icon {
+}
+
+#links {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    text-align: right;
+}
+
+.link {
+    color: rgb(242, 242, 242);
+    font-weight: bold;
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+    width: 70px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(102, 102, 102);
+    text-align: center;
+    border: 2px solid #34282C;
+}
+
+.link:hover {
+    color: black;
+} 
+
+#me {
+	width: 300px;
+	height: 500px;
+
+}
+
+#picture {
+	float: right;
+	margin-top: 10px;
+
+}
+
+#face {
+	border-radius: 50%;
+	display: none;
+	margin-left: 35px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 20px;
+}
+
+#name {
+	font-family: Courier, monospace;
+	font-size: 35pt;
+	color: rgb(242, 242, 242);
+	margin-left: 50px;
+}
+
+#name span {
+	color: rgb(200,0,0);
+}
+
+#job {
+	font-family: Courier, monospace;
+	font-size: 15pt;
+	margin-top: -40px;
+	margin-left: 50px;
+
+}
+
+hr {
+	border-style: solid;
+	border-color: rgb(200,0,0);
+	padding-top: 1px;
+	width: 90%;
+	background-color: rgb(200,0,0);
+	
+}
+
+.insideHr {
+	border-style: solid;
+	border-color: rgb(144,144,144);
+	width: 85%;
+	padding-top: 1px;
+	background-color: rgb(144,144,144) ;
+}
+
+.titles {
+	font-size: 20pt;
+	margin-left: 50px;
+	color: rgb(242, 242, 242);
+	display: inline;
+}
+
+.information {
+	color: rgb(242, 242, 242);
+	font-family: Courier, monospace;
+	margin-left: 50px;
+}
+
+.full {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+    #dropdown1, #dropdown2, #dropdown3 {
+	color: rgb(200,0,0);
+	font-weight: bold;
+	background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 15pt;
+    } 
+
+    #dropdowninfo1, #dropdowninfo2, #dropdowninfo3 {
+    	display: none;
+    }
+	
+#skill {
+	width: 90%;
+}
+
+.project {
+	width: 45%;
+	height: 200px;
+}

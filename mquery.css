@@ -1,0 +1,133 @@
+
+/* 
+    Created on : 03/07/2016
+    Author     : Jonathan
+*/
+
+@media screen and (max-width: 1500px) {
+    #inner {
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    #inner {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    #inner {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    #inner {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* tablets */ 
+@media screen and (max-width: 1000px) {
+    #inner {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+	
+	project {
+	height: 180px;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+    #inner {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+}
+
+/* small tablets or big phones */
+@media screen and (max-width: 850px) {
+    #picture {
+        display: none;
+    }
+
+    #face {
+        display: inline-block;
+    }
+
+    #skills {
+        padding-right: 60px;
+    }
+	
+	.project {
+	height: 150px;
+	}
+   
+}
+
+/* small phones */
+@media screen and (max-width: 520px) {  
+    #inner {
+        margin-top: 0px;
+        border: none;    
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    #face {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #name {
+        text-align: center;
+        margin: 0px;
+            
+    }
+    
+    #job {
+        text-align: center;
+        margin: 0px 0px -100px 0px;
+    }  
+    
+    #links {
+        margin-top: 120px;
+        margin-bottom: 15px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .link {
+        width: 90%;  
+    }
+
+    #middle {
+        margin-left: 0;
+        margin-right: 5%;   
+    }  
+
+    #quote {
+        display: none;
+    }
+
+    .titles {
+        margin-left: 20px;
+    }
+
+    .information {
+        margin-left: 20px;
+    }
+	
+	.project {
+	height: 100px;
+	}
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Personal Website </title>
+		<meta charset="UTF-8">
+       	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="website.css">
+		<link rel="stylesheet" type="text/css" href="mquery.css">
+		<script type="text/javascript" src="website.js"></script>
+	</head>
+	<body>
+	<div id="inner">
+		<header>
+			<hroup>
+				<img id="face" src="me2.png" alt="picture of Jonathan Duarte">
+				<h1 id="name" alt="Name"><span>Jonathan</span> Duarte</h1>
+				<h1 id="job" alt="Job">Software Engineer</h1>
+			</hroup>
+			<section id="links">
+				<span> 
+					<a class="link" href="#about">About</a> 
+					<a class="link" href="#stats">Stats</a>
+					<a class="link" href="#projects">Projects</a>
+				</span>	
+			</section>
+		</header>
+		<hr />
+			<section id="middle">
+				<section id="quote">
+					<p> "Every day of your life is bad. How you deal with it and what you make out of it
+                     	is how it becomes good." </p><p id="quoteName">-Jonathan Duarte </p>
+				</section>
+				<div id="picture">
+					<img src="me.png" alt="Picture of Jonathan Duarte" id="me">
+				</div>
+				<section id="skills">	
+					<ul>
+						<li> HTML/CSS/JavaScript </li>
+						<li> XML </li>	
+						<li> SQL </li>	
+						<li> Java </li>	
+						<li> Swift </li>
+						<li> Objective-C </li>		
+						<li> Photoshop CS6 </li>
+						<li> Illustrator CS6 </li>
+						<li> MIT App Inventor </li>
+					</ul>
+				</section>
+			</section>
+			<hr class="insideHr" />
+			<section id="about" class="full" >
+				<h2 class="titles" > About </h2> <button id="dropdown1" onClick="MoreAndLess1()">more</button>
+				<div class="information" >
+					<p> Norwalk Community College </p>
+					<p> Computer Science Graduate </p>
+					<div id="dropdowninfo1">
+						<h3> Work Experience </h3>
+						<p>Duchess Family Restaurant<br /><i>General worker</i></p>
+						  <ul>
+						    <li>Handled customer requests, complaints, and questions</li>
+							<li>Handled cash register money and bank runs</li>
+							<li>Provided a clean and comfortable environment</li>
+						  </ul>
+						<p>Papa John’s Pizza<br /><i>Driver</i></p>						 
+						  <ul>
+							<li>Handled delivery money</li>
+							<li>Ensured customer satisfaction with a positive attitude</li>
+							<li>Provided a clean and comfortable environment</li>
+						  </ul>
+					</div>
+				</div>		
+			</section>	
+			<hr class="insideHr" />
+			<section id="stats" class="full" >
+				<h2 class="titles" > Stats </h2> <button id="dropdown2" onClick="MoreAndLess2()">more</button>
+				<div class="information" >
+					<img src="skills.png" alt="skills" id="skill">
+					<div id="dropdowninfo2">
+						<h3> Communication and Teamwork </h3>
+						  <ul>
+						    <li>Various courses completed in college have assessment, such as public speaking and seminar classes</li>
+							<li>Enjoy working as a team member as well as independently</li>
+							<li>Ability to contribute expertise and follow leadership</li>
+							<li>Teamwork has allowed me to learn from other team members. In a group of 6 in an Intro to Java course I did not understand some of the aspects of the project, but after discussing with my team members I was able to fully understand. We ended up with the full grade of the project.</li>
+						  </ul>
+					</div>
+				</div>
+			</section>	
+			<hr class="insideHr" />
+			<section id="projects"  class="full" >
+				<h2 class="titles" > Projects </h2> <button id="dropdown3" onClick="MoreAndLess3()">more</button>
+				<div class="information" >
+				<img src="martialArts.png" alt="Martial Arts" class="project">
+				<img src="database.png" alt="Database" class="project">
+					<div id="dropdowninfo3">
+						<h3> Martial Arts Academy Website </h3>
+						  <p> This is a website created for my father's martial arts academy. It features a homepage, gallery page for all his in-class pictures, a gear page where he can sell his product, and a contact page so people can keep in touch with him.</>
+						<h3> Game Distributor Database </h3>
+						  <p> The purpose of this database is to keep track of the games sold by certain companies. The database will keep track of orders, product price, product quantity, etc.</p>
+					</div>
+				</div>
+			</section>
+		<hr />
+		<footer>
+			<span>
+				<a href="https://www.facebook.com/jonathan.r.duarte" class="iconlink">
+					<img src="facebook.png" alt="Facebook" id="facebook" class="icon" />
+            	</a>
+            	<a  href="https://github.com/JonDuarteBr" class="iconlink">
+					<img src="github.png" alt="Github" id="github" class="icon" />
+				</a>
+            	<a  href="https://plus.google.com/u/0/102506914408391666654" class="iconlink">	
+					<img src="googleplus.png" alt="Google Plus" id="googleplus" class="icon" />
+				</a>
+            	<a  href="mailto:JonRodriguesBr@gmail.com" class="iconlink">	
+					<img src="email.png" alt="Email" id="email" class="icon" />
+				</a>
+            	<a  href="https://www.linkedin.com/in/jonathan-duarte-86a998bb?trk=nav_responsive_tab_profile" class="iconlink">	
+					<img src="linkedin.png" alt="LinkedIn" id="linkedin" class="icon" />
+				</a>
+            		
+		</footer>
+	</div>
+	</body>
+</html>
